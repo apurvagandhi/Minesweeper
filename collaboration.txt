@@ -1,0 +1,82 @@
+Apurva Gandhi
+ahgand22@g.holycross.edu
+Assignment: Project 5
+Date Written - 11/16/2018
+Last Update - 12/01/2018
+Collaboration Log: 
+
+Collaboration: I worked on this mostly on my own. I spent a few extra hours than most students because I tried to figure out everything on my own.
+Furthermore, I collaborated with Nick Steudl regarding the save and restore function. I did not seek any help from anyone. We worked together in creating
+a function for saving and restore. I later modified that function to meet my expectation. I did not collaborate with anyone else or asked for help other than Nick Steudl. I did help many students to start their project going. I believe I helped Sarah Vermette, Margaret, Yusi Yao, and Daniel are some of the students whom I helped somewhere along the project. I did not take help from any of this students.  
+
+ Extra Credit/features:
+ *  1. Auto-complete: When a blank cell is revealed, all neighboring cells are also revealed.
+ *     If any of those newly revealed cells are blank, then their neighbors will  be revealed too,
+ *     and so on until the neighbors of every newly revealed blank cell are revealed.
+ *  2. Artistic effort: used beveled edges on the cells. Draws numbers in appropriate colors,
+ *     shows grid lines between boxes, uses images to show mines and flags
+ *  3. Nice game ending: when the game is won or lost, the game includes a special user-friendly message
+ *     providing the current game-winning or losing status
+ *     It also prints out Victory Royale and Winner winner chicken dinner which is the famous tag
+ *     lines for the current trending game, PUBG, and Fortnite 
+ *  4. Flags: right-clicking on unrevealed cell plants or removes a flag on that cell.
+ *     Left click on a flag does nothing. If the user has put the correct number of flags, 
+ *     every flag is on a hidden mine, and no flag is on a cell that is not a mine,
+ *     then the game is considered a win. Flags are shown using an imported image of the Indian flag.
+ *  5. Game save/restore: user can press' s' key be "save", and 'r' key to be "restore".
+ *     Saves and restores the game. The user can save the game of any difficulty and come back
+ *     later and press 'r' key to restore the saved game
+ *     The help box is also revised with information to save and restore keys for the better user-friendly experience.
+ * IN ADDITION, if user presses 's' key after winning or losing the game, it will print out 
+ *     a message stating that they can not save the game because they have already won or lost.
+ *     When they try to restore a game after trying to save a won or lost game, 
+ *     It will show the label which states that they can not restore a game because
+ *     they tried to save already won or lost game last time. 
+ *     It will also print out that this is a new game and enjoy the new game
+ 
+Trobles: There were many troubles along the project. Here are some of the many problems which I can recall. Starting from the beginning, I did not know that cell class is represented each cell and I was unaware of how to draw the grid. Later, I stumbled on the part to deploy mines where it was not deploying all the mines because the randomly generated number already had a mine. I fixed that problem using do while loop. Then, I came across a problem of incrementing neighboring mine count. I spent 4 hours and hard-coded each of the possible conditions and ended up with more than 47 lines of code just to increment neighbor mine count. It worked but it was definitely not the most concise way to code. From, there I was stuck on the parameter for the status box where parameter required was game and I tried various types of game and tried many other things. From office hours, learned that I needed to put "this" as my parameter. There were many more struggles in between all of this but the final struggle I faced was during save and restore. I had a problem where if the person saves the game, and if he or she is lost, if they restore it, it will start playing again. I spent many hours trying various things and finally came up with a possible solution. I also struggled on recussion for a very long time because of smaller misunderstanding in the logic. Overall, it was a challenging and time-consuming project, but I learned a lot and learned to face various challenges through this project. 
+
+
+Total on screen time spent on this project
+Date: 11/16/2018
+Time worked on: 6:07pm to 7:30pm
+
+Date: 11/17/2018
+Time worked on: 2:30 pm to 4:30 pm
+
+Date: 11/17/2018
+Time worked on: 7:00pm to 9:00pm
+
+Date: 11/20/2018
+Time worked on: 12:00noon to 1:00pm
+
+Date: 11/21/2018
+Time worked on: 6:40pm to 12:15am
+
+Date: 11/25/2018
+Time worked on: 12:00 am to 2:30 am
+
+Date:11/26/2018
+Time worked on: 11:47am to 1:04pm 
+
+Date: 11/29/2018
+Time worked on: 2:15pm to 3:15pm
+
+Date: 11/29/2018
+Time worked on: 4:00pm to 6:00pm
+
+Date: 11/29/2018
+Time worked on: 10:00pm to 12:00pm
+
+Date: 11/30/2018
+Time worked on: 4:00pm to 5:00pm
+
+Date: 12/01/2018
+Time worked on: 2:00am to 4:00am
+
+Date: 12/01/2018
+Time worked on: 3:30 pm to 6:00 pm
+
+
+Total hours spent: 26.25 Hours
+Total Minutes spent: 1575 Minutes
